@@ -12,6 +12,7 @@
 		BCB5AB7F1E8C10A40096C6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB5AB7D1E8C10A40096C6A0 /* Main.storyboard */; };
 		BCB5AB811E8C10A40096C6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB5AB801E8C10A40096C6A0 /* Assets.xcassets */; };
 		BCB5AB841E8C10A40096C6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB5AB821E8C10A40096C6A0 /* LaunchScreen.storyboard */; };
+		BCE7E7081E8C151D0007F49B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE7E7071E8C151D0007F49B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BCB5AB801E8C10A40096C6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB5AB831E8C10A40096C6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB5AB851E8C10A40096C6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE7E7071E8C151D0007F49B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BCB5AB791E8C10A40096C6A0 /* AppDelegate.swift */,
 				BCB5AB7B1E8C10A40096C6A0 /* ViewController.swift */,
+				BCE7E7071E8C151D0007F49B /* ResultViewController.swift */,
 				BCB5AB7D1E8C10A40096C6A0 /* Main.storyboard */,
 				BCB5AB801E8C10A40096C6A0 /* Assets.xcassets */,
 				BCB5AB821E8C10A40096C6A0 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				BCB5AB7C1E8C10A40096C6A0 /* ViewController.swift in Sources */,
 				BCB5AB7A1E8C10A40096C6A0 /* AppDelegate.swift in Sources */,
+				BCE7E7081E8C151D0007F49B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				BCB5AB8A1E8C10A40096C6A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
